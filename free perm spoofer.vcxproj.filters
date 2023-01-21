@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="header file">
+      <UniqueIdentifier>{be01d95b-4a2d-44fb-bd4a-92d959917988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dpp">
+      <UniqueIdentifier>{880575b1-aa68-4451-a1b5-0a42a4b898d7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lazy.h">
+      <Filter>header file</Filter>
+    </ClInclude>
+    <ClInclude Include="enc.h">
+      <Filter>header file</Filter>
+    </ClInclude>
+    <ClInclude Include="other.h">
+      <Filter>header file</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\appcommand.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\application.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\auditlog.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\automod.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\ban.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\cache.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\channel.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\cluster.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\cluster_coro_calls.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\cluster_sync_calls.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\collector.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\colors.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\commandhandler.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\coro.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\discordclient.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\discordevents.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\discordvoiceclient.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\dispatcher.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\dns.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\dpp.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\dtemplate.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\emoji.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\etf.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\event.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\event_router.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\exception.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\export.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\guild.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\httpsclient.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\integration.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\intents.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\invite.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\json_interface.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\managed.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\message.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\misc-enum.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\once.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\permissions.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\presence.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\prune.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\queues.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\restrequest.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\restresults.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\role.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\scheduled_event.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\snowflake.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\socket.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\sslclient.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\stage_instance.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\stringops.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\sync.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\sysdep.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\timed_listener.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\timer.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\user.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\utility.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\version.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\voiceregion.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\voicestate.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\webhook.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\win32_safe_warnings.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\wsclient.h">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\nlohmann\json.hpp">
+      <Filter>dpp</Filter>
+    </ClInclude>
+    <ClInclude Include="include\dpp-10.0\dpp\nlohmann\json_fwd.hpp">
+      <Filter>dpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\dpp-10.0\dpp.lib">
+      <Filter>dpp</Filter>
+    </Library>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="lib\cmake\dpp\dpp.cmake">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="lib\cmake\dpp\dpp-config.cmake">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="lib\cmake\dpp\dpp-config-version.cmake">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="lib\cmake\dpp\dpp-release.cmake">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="bin\dpp.dll">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="bin\libcrypto-1_1-x64.dll">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="bin\libsodium.dll">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="bin\libssl-1_1-x64.dll">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="bin\opus.dll">
+      <Filter>dpp</Filter>
+    </None>
+    <None Include="bin\zlib1.dll">
+      <Filter>dpp</Filter>
+    </None>
+  </ItemGroup>
+</Project>

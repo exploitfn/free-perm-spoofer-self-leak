@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{1e1a07e8-c171-4a39-8944-5b6ad28d1c58}</ProjectGuid>
+    <RootNamespace>freepermspoofer</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>C:\Users\cody\OneDrive\Desktop\cody\coding\source codes\free perm spoofer\free perm spoofer\lib\dpp-10.0;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <UACExecutionLevel>RequireAdministrator</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="enc.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\appcommand.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\application.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\auditlog.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\automod.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\ban.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\cache.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\channel.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\cluster.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\cluster_coro_calls.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\cluster_sync_calls.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\collector.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\colors.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\commandhandler.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\coro.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\discordclient.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\discordevents.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\discordvoiceclient.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\dispatcher.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\dns.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\dpp.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\dtemplate.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\emoji.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\etf.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\event.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\event_router.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\exception.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\export.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\guild.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\httpsclient.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\integration.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\intents.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\invite.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\json_interface.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\managed.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\message.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\misc-enum.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\nlohmann\json.hpp" />
+    <ClInclude Include="include\dpp-10.0\dpp\nlohmann\json_fwd.hpp" />
+    <ClInclude Include="include\dpp-10.0\dpp\once.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\permissions.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\presence.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\prune.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\queues.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\restrequest.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\restresults.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\role.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\scheduled_event.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\snowflake.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\socket.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\sslclient.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\stage_instance.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\stringops.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\sync.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\sysdep.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\timed_listener.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\timer.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\user.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\utility.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\version.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\voiceregion.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\voicestate.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\webhook.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\win32_safe_warnings.h" />
+    <ClInclude Include="include\dpp-10.0\dpp\wsclient.h" />
+    <ClInclude Include="lazy.h" />
+    <ClInclude Include="other.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="lib\dpp-10.0\dpp.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\dpp.dll" />
+    <None Include="bin\libcrypto-1_1-x64.dll" />
+    <None Include="bin\libsodium.dll" />
+    <None Include="bin\libssl-1_1-x64.dll" />
+    <None Include="bin\opus.dll" />
+    <None Include="bin\zlib1.dll" />
+    <None Include="lib\cmake\dpp\dpp-config-version.cmake" />
+    <None Include="lib\cmake\dpp\dpp-config.cmake" />
+    <None Include="lib\cmake\dpp\dpp-release.cmake" />
+    <None Include="lib\cmake\dpp\dpp.cmake" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
