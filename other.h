@@ -70,10 +70,12 @@ void check()
 
 
 
-	//if (CheckRemoteDebuggerPresent)
-	//{
-	//	LI_FN(exit)(0);
-	//}
+
+	BOOL IsDebugged = IsDebuggerPresent();
+	if (IsDebugged)
+	{
+		LI_FN(exit)(0);
+	}
 
 
 
